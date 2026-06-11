@@ -1,0 +1,63 @@
+:root{
+  --backd-1: #ededed;
+  --backd-2: #efefef;
+  --backd-3: #ebebeb;
+  --bordd-1: #d7d5d5;
+  --bordd-2: #ccc;
+  --bordd-3: #bbb;
+  --txtd-0: #aaa;
+  --txtd-1: #444;
+  --txtd-2: #555;
+  --txtd-3: #777;
+  --backn-2: #191919;
+  --backn-1: #151515;
+  --backn-3: #101010;
+  --bordn-0: #191919;
+  --bordn-1: #2c2c2c;
+  --bordn-2: #222;
+  --bordn-3: #333;
+  --txtn-1: #ccc;
+  --txtn-2: #aaa;
+  --txtn-3: #888;
+  --criminales: #323A5F;
+}
+
+.dami-c-bx {width: 880px; height: 670px; margin: auto; position: relative; overflow: hidden; background: #111; padding: 20px; outline: 1px solid var(--criminales); outline-offset: -10px}
+
+.dami-c-bx br {display: none!important}
+
+.dami-c-con {width: auto; height: 70px; padding: 20px; margin: auto; position: relative; background: #222; display: flex; flex-wrap: wrap; overflow: hidden}
+
+.c-con-n {width: 440px; height: auto; margin: 10px 0px 0px 0px; font-family: audiowide; color: var(--criminales); font-size: 45px; letter-spacing: 2px; text-transform: uppercase; font-weight: bold}
+
+.c-con-n span {color: transparent; -webkit-text-stroke: 1px #888}
+
+.c-con-li {width: 100px; height: 10px; background: var(--criminales); margin: 60px 0px 0px 0px; position: absolute}
+
+.c-con-ic {width: 50px; height: 50px; margin: -120px 0px 0px 750px; font-size: 150px; color: var(--criminales); transform: rotate(20deg)}
+
+.dami-c-box {width: auto; height: 530px; margin: 10px 0px 0px 0px; background: #222; padding: 10px; overflow: auto; position: relative}
+
+.dami-c-box::-webkit-scrollbar{background: #222; width: 6px!important; border: none}
+
+.dami-c-box::-webkit-scrollbar-thumb{background: var(--criminales)!important; border: 2px solid #222}
+
+.dami-c-month {width: auto; height: auto; margin: auto; padding: 30px; padding-bottom: 40px; font-family: audiowide; text-transform: uppercase; font-weight: bold; font-size: 30px; color: var(--criminales); background: #111; overflow: auto; padding-left: 40px; margin-top: 5px}
+
+.month-li {width: 40px; height: 10px; background: var(--criminales); margin: 10px 0px 0px 0px; position: absolute}
+
+.dami-c-temas {width: auto; height: auto; margin: 5px 0px 0px 0px; padding: 10px; background: #111; display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 1px;
+grid-row-gap: 1px;}
+
+.c-caja-tema {width: 413px; height: 90px; margin: auto; outline: 1px solid #333; margin-top: 5px; background: #191919; overflow: hidden}
+
+.c-tema-ic {width: 40px; height: 40px; margin: 20px 0px 0px 10px; font-size: 40px; color: var(--criminales); position: absolute}
+
+.c-tema-tit {width: 335px; height: auto; margin: 20px 0px 0px 60px; position: absolute; font-size: 11px; font-family: audiowide; text-transform: uppercase; line-height: 110%; background: #111; padding: 5px; font-weight: bold}
+
+.c-tema-tit a {text-decoration: none; color: var(--criminales)!important}
+
+.c-tema-datos {width: auto; height: auto; margin: 50px 0px 0px 60px; font-family: google sans code; font-size: 8px; text-transform: uppercase; color: #aaa}

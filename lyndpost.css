@@ -1,0 +1,44 @@
+:root{
+  --backd-1: #ededed;
+  --backd-2: #efefef;
+  --backd-3: #ebebeb;
+  --bordd-1: #d7d5d5;
+  --bordd-2: #ccc;
+  --bordd-3: #bbb;
+  --txtd-0: #aaa;
+  --txtd-1: #444;
+  --txtd-2: #555;
+  --txtd-3: #777;
+  --backn-2: #191919;
+  --backn-1: #151515;
+  --backn-3: #101010;
+  --bordn-0: #191919;
+  --bordn-1: #2c2c2c;
+  --bordn-2: #222;
+  --bordn-3: #333;
+  --txtn-1: #ccc;
+  --txtn-2: #aaa;
+  --txtn-3: #888;
+  --criminales: #323A5F;
+}
+
+.gh-t-bx {width: 520px; height: auto; margin: auto; position: relative; background: #111; padding: 20px;}
+
+.gh-t-titulo {width: 500px; height: 120px; margin: auto; position: absolute; background: #171717; border-bottom: 1px solid var(--criminales); padding: 10px}
+
+.gh-frase {width: 65px; height: 100px; margin: 0px 0px 0px 0px; border-right: 1px solid var(--criminales); padding: 10px; font-family: google sans code; color: #aaa; font-size: 9px; text-transform: uppercase; line-height: 150%; position: absolute}
+
+.gh-tit {width: 400px; height: 90px; margin: 0px 0px 0px 100px; position: absolute; color: var(--criminales); font-family: audiowide; text-transform: uppercase; font-weight: bold; font-size: 25px; line-height: 110%}
+
+.gh-t-txt {width: auto; height: auto; background: #171717; margin: 150px 0px 0px 0px; padding: 40px; font-family: 'inter'; color: #ccc; font-size: 12px; text-align: justify; line-height: 170%; font-weight: 300!important}
+
+.gh-t-txt b {color: var(--criminales)}
+
+.gh-t-datos {width: 480px; height: 20px; margin: 7px 0px 0px 0px; background: #171717; padding: 20px; text-align: right; border-top: 1px solid var(--criminales)}
+
+.gh-t-datos span {width: auto; height: auto; margin: 5px; text-align: center; background: #252525; padding: 10px; border-radius: 10px; font-family: google sans code; color: #bbb; font-size: 10px; text-transform: uppercase}
+
+.gh-t-datos i {color: var(--criminales); font-size: 15px}
+
+.gh-t-bx {--criminales: var(--accent)}
+
